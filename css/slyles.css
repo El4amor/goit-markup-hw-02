@@ -46,6 +46,9 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+.header-contacts-link:active {
+    color: #404BBF;
+}
 
 /* Hero */
 
@@ -180,4 +183,45 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+}
+
+/* PORTFOLIO */
+
+.filters-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer
+}
+
+.filters-btn:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.cards-content {}
+
+.cards-content-list {}
+
+.list {}
+
+.cards-content-item {}
+
+.cards-content-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.card-content-type {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
