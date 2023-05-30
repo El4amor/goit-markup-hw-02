@@ -206,6 +206,14 @@ body {
 
 /* PORTFOLIO */
 
+.header-menu-link-portfolio:hover {
+    color: var(--header-menu-link);
+}
+
+.header-menu-link-portfolio:focus {
+    color: var(--header-menu-link);
+}
+
 .span-portfolio-header {
     color: var(--subtitle-color);
 }
