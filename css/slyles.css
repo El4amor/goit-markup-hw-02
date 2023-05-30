@@ -45,9 +45,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--subtitle-color);
 }
-.header-menu-link:hover {
-    color: var(--header-menu-link);
-}
+.header-menu-link:hover,
 .header-menu-link:focus {
     color: var(--header-menu-link);
 }
