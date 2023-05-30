@@ -66,6 +66,10 @@ body {
     letter-spacing: 0.02em;
     color: var(--item-text);
 }
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+    color: #404bbf;
+}
 .header-contacts-link:active {
     color: var(--header-menu-link);
 }
