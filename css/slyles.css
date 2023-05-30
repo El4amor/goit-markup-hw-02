@@ -9,6 +9,8 @@
 }
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: var(--title-color)
 }
 
 .link {
@@ -29,11 +31,11 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--subtitle-color);
+    color: var(--button-background-color);
 }
 
 .header-logo span {
-    color: var(--button-background-color);
+    color: #2e2f42;
 }
 
 .header-menu-link {
@@ -43,9 +45,16 @@ body {
     letter-spacing: 0.02em;
     color: var(--subtitle-color)
 }
+.header-menu-link:hover,:focus {
+    color: #404bbf;
+}
 .header-menu-link:active {
-    color: var(--link-active-color);
+    color: #404bbf;
     text-decoration: underline
+}
+
+.header-contacts {
+    font-style: normal
 }
 
 .header-contacts-link {
@@ -56,7 +65,7 @@ body {
     color: var(--item-text);
 }
 .header-contacts-link:active {
-    color: var(--link-active-color);
+    color: #404bbf;
 }
 
 /* Hero */
@@ -69,22 +78,24 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
 
 .hero-btn {
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--title-color);
-    background: var(--button-background-color);
+    background: #404bbf;
     cursor: pointer
 }
 
-.hero-btn:hover {
+.hero-btn:hover,:focus {
     background: var(--link-active-color);
 }
 
@@ -112,6 +123,7 @@ body {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
     color: var(--subtitle-color)
 }
@@ -122,11 +134,16 @@ body {
     background: var(--background-color);
 }
 
+.team-list {
+    background-color: #FFFFFF
+}
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
     color: var(--subtitle-color);
 }
@@ -134,7 +151,7 @@ body {
 .team-name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2x;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--subtitle-color);
 }
@@ -160,11 +177,11 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--background-color);
+    color: var(--button-background-color);
 }
 
-.footer-logo span {
-    color: var(--button-background-color);
+.span-footer {
+    color: #f4f4fd;
 }
 
 .footer-title {
