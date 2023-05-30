@@ -206,6 +206,14 @@ body {
 
 /* PORTFOLIO */
 
+.header-menu-link-portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--subtitle-color);
+}
+
 .header-menu-link-portfolio:hover {
     color: var(--header-menu-link);
 }
