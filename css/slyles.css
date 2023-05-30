@@ -225,6 +225,7 @@ body {
     color: var(--subtitle-color);
 }
 
+
 .filters-btn {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -233,13 +234,13 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--portfolio-filters);
-    background-color: (var(--button-background-color));
+    background-color: #F4F4FD;
     cursor: pointer;
 }
 
 .filters-btn:hover {
     color: #FFFFFF;
-    background-color: #F4F4FD;
+    background-color: var(--button-background-color);
 }
 .filters-btn:focus {
     color: var(--title-color);
