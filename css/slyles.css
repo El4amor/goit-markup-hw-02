@@ -1,5 +1,14 @@
+:root {
+    --title-color: #ffffff;
+    --subtitle-color: #2E2F42;
+    --button-background-color: #4D5AE5;
+    --link-active-color: #404BBF;
+    --item-text: #434455;
+    --background-color: #F4F4FD;
+
+}
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .link {
@@ -13,18 +22,18 @@ body {
 /* Header */
 
 .header-logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: var(--subtitle-color);
 }
 
 .header-logo span {
-    color: #4D5AE5;
+    color: var(--button-background-color);
 }
 
 .header-menu-link {
@@ -32,10 +41,10 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--subtitle-color)
 }
 .header-menu-link:active {
-    color:#404BBF;
+    color: var(--link-active-color);
     text-decoration: underline
 }
 
@@ -44,16 +53,16 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--item-text);
 }
 .header-contacts-link:active {
-    color: #404BBF;
+    color: var(--link-active-color);
 }
 
 /* Hero */
 
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--subtitle-color);
 }
 
 .hero-title {
@@ -61,7 +70,7 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--title-color);
 }
 
 .hero-btn {
@@ -70,41 +79,33 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #FFFFFF;
-    background: #4D5AE5;
+    color: var(--title-color);
+    background: var(--button-background-color);
     cursor: pointer
 }
 
 .hero-btn:hover {
-    background: #404BBF;
+    background: var(--link-active-color);
 }
 
 /* Features */
-
-.features {}
-
-.features-list {}
-
-.features-item {}
 
 .features-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--subtitle-color);
 }
 
 .features-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--item-text);
 }
 
 /* Activity */
-
-.activity {}
 
 .activity-title {
     font-weight: 700;
@@ -112,19 +113,13 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--subtitle-color)
 }
-
-.activity-list {}
-
-.list {}
-
-.activity-item {}
 
 /* Team */
 
 .team {
-    background: #F4F4FD;
+    background: var(--background-color);
 }
 
 .team-title {
@@ -133,34 +128,28 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--subtitle-color);
 }
-
-.team-list {}
-
-.list {}
-
-.team-item {}
 
 .team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2x;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--subtitle-color);
 }
 
 .team-specialty {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--item-text);
 }
 
 /* Footer */
 
 .footer {
-    background: #2E2F42
+    background: var(--subtitle-color)
 }
 
 .footer-logo {
@@ -171,18 +160,18 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: var(--background-color);
 }
 
 .footer-logo span {
-    color: #4D5AE5;
+    color: var(--button-background-color);
 }
 
 .footer-title {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--background-color);
 }
 
 /* PORTFOLIO */
@@ -194,34 +183,26 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    color: var(--button-background-color);
     cursor: pointer
 }
 
 .filters-btn:hover {
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--title-color);
+    background-color: var(--link-active-color);
 }
-
-.cards-content {}
-
-.cards-content-list {}
-
-.list {}
-
-.cards-content-item {}
 
 .cards-content-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--subtitle-color);
 }
 
 .card-content-type {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--item-text);
 }
