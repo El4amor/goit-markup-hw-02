@@ -226,6 +226,10 @@ body {
     color: var(--subtitle-color);
 }
 
+.filters-item {
+    background-color: var(--button-background-color);
+}
+
 .filters-btn {
     font-family: "Roboto", sans-serif;
     font-style: normal;
