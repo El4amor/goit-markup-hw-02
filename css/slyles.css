@@ -165,7 +165,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--subtitle-color);
-    
 }
 
 .team-specialty {
@@ -226,10 +225,6 @@ body {
     color: var(--subtitle-color);
 }
 
-.filters-item {
-    background-color: var(--button-background-color);
-}
-
 .filters-btn {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -244,7 +239,7 @@ body {
 
 .filters-btn:hover {
     color: #FFFFFF;
-    background-color: var(--button-background-color);
+    background-color: #F4F4FD;
 }
 .filters-btn:focus {
     color: var(--title-color);
