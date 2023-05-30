@@ -139,6 +139,10 @@ body {
     background: var(--background-color);
 }
 
+.team-list {
+    background-color: #ffffff;
+}
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
