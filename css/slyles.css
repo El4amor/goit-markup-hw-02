@@ -243,7 +243,7 @@ body {
 }
 
 .filters-btn:hover {
-    color: var(--portfolio-filters);
+    color: #FFFFFF;
     background-color: var(--button-background-color);
 }
 .filters-btn:focus {
