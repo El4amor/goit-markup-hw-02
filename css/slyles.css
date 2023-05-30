@@ -235,7 +235,7 @@ body {
     letter-spacing: 0.04em;
     color: var(--portfolio-filters);
     background-color: (var(--button-background-color));
-    cursor: pointer
+    cursor: pointer;
 }
 
 .filters-btn:hover {
