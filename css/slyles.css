@@ -10,7 +10,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: var(--litle-text);
-    background-color: var(--title-color)
+    background-color: var(--title-color);
 }
 
 .link {
@@ -35,7 +35,7 @@ body {
 }
 
 .header-logo span {
-    color: var(--subtitle-color)
+    color: var(--subtitle-color);
 }
 
 .header-menu-link {
@@ -53,12 +53,12 @@ body {
 }
 
 .header-menu-link:active {
-    color: var(--button-background-color);
     text-decoration: underline;
+    color: var(--header-menu-link);
 }
 
 .header-contacts {
-    font-style: normal
+    font-style: normal;
 }
 
 .header-contacts-link {
@@ -69,7 +69,7 @@ body {
     color: var(--item-text);
 }
 .header-contacts-link:active {
-    color: #404bbf;
+    color: var(--header-menu-link);
 }
 
 /* Hero */
@@ -95,13 +95,13 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--title-color);
-    background-color: #4D5AE5;
-    cursor: pointer
+    background-color: var(--portfolio-filters);
+    cursor: pointer;
     
 }
 
 .hero-btn:hover,:focus {
-    background: var(--link-active-color);
+    background: var(--header-menu-link);
 }
 
 /* Features */
@@ -118,7 +118,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--item-text);
+    color: var(--litle-text);
 }
 
 /* Activity */
@@ -130,17 +130,17 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    color: var(--subtitle-color)
+    color: var(--subtitle-color);
 }
 
 /* Team */
 
 .team {
-    background: var(--background-color);
+    background-color:var(--button-background-color);
 }
 
 .team-list {
-    background-color: #ffffff;
+    background-color:var(--button-background-color);
 }
 
 .team-title {
@@ -167,14 +167,14 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--item-text);
+    color: var(--litle-text);
     
 }
 
 /* Footer */
 
 .footer {
-    background: var(--subtitle-color)
+    background: var(--subtitle-color);
 }
 
 .footer-logo {
@@ -189,14 +189,14 @@ body {
 }
 
 .span-footer {
-    color: var(--background-color)
+    color: var(--button-background-color);
 }
 
 .footer-title {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--background-color);
+    color: var(--button-background-color);
 }
 
 /* PORTFOLIO */
@@ -208,16 +208,18 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color: (var(--background-color));
+    color: var(--portfolio-filters);
+    background-color: (var(--button-background-color));
     cursor: pointer
 }
 
 .filters-btn:hover {
-    color: var(--title-color);
-    background-color: var(--link-active-color);
+    color: var(--portfolio-filters);
+    background-color: var(--button-background-color);
 }
 .filters-btn:focus {
     color: var(--title-color);
+    background-color: var(--header-menu-link);
 }
 
 .cards-content-name {
@@ -234,5 +236,5 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--litle-text)
 }
