@@ -45,11 +45,9 @@ body {
     letter-spacing: 0.02em;
     color: var(--subtitle-color)
 }
-.header-menu-link:hover {
-    color: #404bbf;
-}
+.header-menu-link:hover,
 .header-menu-link:focus {
-    color: #404bbf;
+    color: #404BBF;
 }
 
 .header-menu-link:active {
