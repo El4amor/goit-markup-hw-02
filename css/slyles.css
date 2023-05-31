@@ -241,8 +241,8 @@ body {
 }
 
 .filters-btn:hover {
-    color: #FFFFFF;
-    background-color: var(--button-background-color);
+    color: var(--title-color);
+    background-color: var(--header-menu-link);
 }
 .filters-btn:focus {
     color: var(--title-color);
